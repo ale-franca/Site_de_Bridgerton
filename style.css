@@ -1,0 +1,108 @@
+/*fonte do titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*fonte do paragrafo*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* reset básico*/
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Alterando alinhamento do corpo da página*/
+
+body{
+    text-align: center;
+    background-color: #36013C;
+}
+
+/*Alterando estilo da cabeçalho*/
+
+header{
+    color:aliceblue;
+    padding: 20px;
+    background-color: #6c007a;
+    font-family: 'Dancing Script';
+}
+
+/*Alterando o estilo da navegação da pagina*/
+
+nav a{
+    text-decoration: none; /*ele tirar a decoração do meu texto*/
+    color:bisque;
+    display: inline-block; /* deixar os itens lado a lado*/
+    margin: 15px;
+    padding: 10px 20px;
+    background-color:#7e008f;
+    border-radius: 10px; /*arredondar as bordas*/
+
+}
+
+/*Alterando o estilo da navegação da pagina*/
+
+nav a:hover{ /*muda o estilo do meu nav quando o mauze estiver encima*/
+    background-color:bisque;
+    color:#7e008f;
+    font-size: 15px;
+}
+
+/*Alterando o tamanho me o estilo da imagem*/
+
+.card { /* article dos personagens*/
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 10px; /* arredondar as bordas*/
+    text-align: center;
+}
+
+/*Alterando o tamanho me o estilo da imagem*/
+
+.card img{ /* article das imagem dos personagens*/
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover; /*ajustar a imagem sem distorcer*/
+}
+
+#personagens{
+
+    background-image: url(./imagens/banner.jfif);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: 0%;
+
+    /* Alterar o tamanho da imagem - background-size = cover, contain
+    Não repedir a imagem varias vezes - background-repeat:no-repeat
+    Mudar a posição da imagem - background-position */ 
+}
+#personagens h2{
+    font-family: 'Dancing Script'; /*alterar a fonte do H2*/
+    padding: 10px;
+}
+/*seção de temporadas*/
+#seção-temporadas{
+    margin-top: 30px;
+    background-color:#36013C;
+    padding: 15px;
+}
+.temporadas{
+    display: inline-block; /*ativar o display para os cards */
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    padding-top: 20px;
+    background-color: bisque ;
+    margin: 20px;
+    padding: 15px;
+
+}
+.temporadas img{
+    width: 350px;
+    border-radius: 10px;
+}
