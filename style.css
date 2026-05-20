@@ -91,6 +91,13 @@ nav a:hover{ /*muda o estilo do meu nav quando o mauze estiver encima*/
     background-color:#36013C;
     padding: 15px;
 }
+
+#seção-temporadas h2{
+    color:bisque;
+    background-color: #250129;
+    padding: 10px 20px;
+}
+
 .temporadas{
     display: inline-block; /*ativar o display para os cards */
     width: 400px;
@@ -105,4 +112,14 @@ nav a:hover{ /*muda o estilo do meu nav quando o mauze estiver encima*/
 .temporadas img{
     width: 350px;
     border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    padding: 15px;
+}
+
+footer p{
+    color: bisque;
+    text-align:center;
 }
